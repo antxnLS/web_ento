@@ -1,21 +1,24 @@
-import logo from './logo.svg';
+import logo from './Benet.webp';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <p>
+          Hola, soc John Caminant
+        </p>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Bottom Text
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://caminant.fandom.com/es/wiki/Benet_caminant"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Clica aqui para que entre un virus
         </a>
       </header>
     </div>
