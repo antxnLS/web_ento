@@ -20,6 +20,15 @@ function App() {
         >
           Clica aqui para que entre un virus
         </a>
+
+        <a
+          className="App-link"
+          href="./pagina.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Clica aqui para que no te entre un virus
+        </a>
       </header>
     </div>
   );
