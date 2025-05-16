@@ -5,6 +5,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <ul class="navbar">
+          <li><a class="active" href="App.js">index</a></li>
+          <li><a href="index.html">4</a></li>
+          <li><a href="">5</a></li>
+          <li><a href="">6</a></li>
+        </ul>
         <p>
           Hola, soc John Caminant
         </p>
