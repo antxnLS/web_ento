@@ -1,10 +1,10 @@
 import logo from './Benet.webp';
 import './App.css';
 
-function AppCopy() {
+function Page4() {
   return (
     <>
-      <p>Hola, soc John Caminant (des de App-copy)</p>
+      <p>Hola, soc John Caminant (des de Page4)</p>
       <img src={logo} className="App-logo" alt="logo" />
       <p>Bottom Text</p>
       <a
@@ -27,4 +27,4 @@ function AppCopy() {
   );
 }
 
-export default AppCopy;
+export default Page4;

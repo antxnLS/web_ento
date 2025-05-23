@@ -11,7 +11,7 @@ function Navbar() {
         <Link className={location.pathname === '/' ? 'active' : ''} to="/">index</Link>
       </li>
       <li>
-        <Link className={location.pathname === '/App-copy' ? 'active' : ''} to="/App-copy">4</Link>
+        <Link className={location.pathname === '/page4' ? 'active' : ''} to="/page4">4</Link>
       </li>
       <li>
         <Link className={location.pathname === '/page5' ? 'active' : ''} to="/page5">5</Link>
