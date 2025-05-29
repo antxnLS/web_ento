@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #0e3c60;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Prevenir el color morado por defecto en enlaces visitados */
+.navbar a:visited {
+  color: white;
+}
+
+.navbar a:hover {
+  color: #ff9900; /* o cualquier color que combine con tu diseño */
+}
